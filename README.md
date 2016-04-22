@@ -1,5 +1,7 @@
 ### [type="checkbox"]和[type="radio"]通过`CSS`重写默认／选择样式
 
+`说明：依赖font-awesome`
+
 #### 使用
 ```html
 <link rel="stylesheet" href="font-awesome.css">
