@@ -1,0 +1,40 @@
+.rcheckbox,
+.rradio {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: 1em;
+  margin: 0;
+  padding: 0;
+  font-family: "FontAwesome";
+  font-size: 1em;
+}
+.rcheckbox, .rcheckbox:hover, .rcheckbox:focus,
+.rradio,
+.rradio:hover,
+.rradio:focus {
+  outline: none;
+}
+.rcheckbox:before,
+.rradio:before {
+  display: inline-block;
+  color: #c8c8c8;
+}
+.rcheckbox:checked:before,
+.rradio:checked:before {
+  color: #2db7f5;
+}
+
+.rcheckbox:before {
+  content: "\f096";
+}
+.rcheckbox:checked:before {
+  content: "\f046";
+}
+
+.rradio:before {
+  content: "\f10c";
+}
+.rradio:checked:before {
+  content: "\f192";
+}

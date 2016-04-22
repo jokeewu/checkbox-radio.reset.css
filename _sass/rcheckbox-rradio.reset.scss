@@ -1,0 +1,49 @@
+$default-color: #c8c8c8;
+$checked-color: #2db7f5;
+
+.rcheckbox,
+.rradio {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: "FontAwesome";
+    font-size: 1em;
+
+    &,
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+
+    &:before {
+        display: inline-block;
+        color: $default-color;
+    }
+
+    &:checked:before {
+        color: $checked-color;
+    }
+}
+
+.rcheckbox {
+    &:before {
+        content: "\f096";
+    }
+
+    &:checked:before {
+        content: "\f046";
+    }
+}
+
+.rradio {
+    &:before {
+        content: "\f10c";
+    }
+
+    &:checked:before {
+        content: "\f192";
+    }
+}

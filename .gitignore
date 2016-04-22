@@ -1,0 +1,7 @@
+# IDE
+.idea/
+.sass-cache/
+
+# Dev
+node_modules/
+bower_components/
